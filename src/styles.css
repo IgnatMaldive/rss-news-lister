@@ -1,0 +1,88 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #2c3e50;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header {
+  background: #ff6b6b;
+  padding: 15px 0;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.header h1 {
+  margin: 0;
+  color: white;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.story-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  background: #f0f0f0;
+  border: 1px solid #e0e0e0;
+  border-radius: 3px;
+}
+
+.story-card {
+  display: flex;
+  background: #fff;
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+  transition: background-color 0.2s;
+}
+
+.story-card:hover {
+  background: #f9f9f9;
+}
+
+.story-image {
+  width: 130px;
+  height: 90px;
+  margin-right: 15px;
+  flex-shrink: 0;
+}
+
+.story-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
+.story-content {
+  flex: 1;
+}
+
+.story-title {
+  margin: 0 0 8px 0;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.story-title a {
+  color: #2c3e50;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.story-title a:hover {
+  color: #ff6b6b;
+}
+
+.story-date {
+  color: #888;
+  font-size: 12px;
+  display: block;
+}
